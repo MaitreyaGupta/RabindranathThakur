@@ -1,15 +1,6 @@
 var app1=require("express")
 app=app1() 
 var bodyParser=require("body-parser")
-var mongoose=require("mongoose")
-async function ConnectDB(){
-try{
-mongoose.connect("localhost:27017//Starter.db",{useNewUrlParser:true},{useUnifiedTopology:true})
-}
-catch(err){
- console.log(err)
-}
-}
  
 app.set("view engine","ejs")
 app.use(app1.static("public"))
