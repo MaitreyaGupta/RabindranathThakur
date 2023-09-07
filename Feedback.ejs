@@ -1,0 +1,32 @@
+<%- include("Header") %>
+<body class="FeedbackWala">
+<form id="Mailer" class="Mailer">
+    <label>Username</label>
+<input class="body" id="Body" type="text" placeholder="Enter your feedback please"></input>
+<label>Email:</label>
+<input class="mail" id="Sender" type="text" placeholder="Enter your email id"></input>
+<button type="submit" id="Starter">Submit</button>
+</form>
+<script>
+    var x=document.getElementById("Starter")
+    var y=document.getElementById("Body")
+  var button=document.GetElementByIdId("Starter")
+  button.addEventListener("click",OnSubmit)
+  var nodemailer=require("nodemailer") 
+  function OnSubmit(){
+     Email.send({
+        Host:"smtp.gmail.com",
+        Username:x,
+        Password:'String',
+        To:'maitreyaguptaa@gmail.com',
+        From:x, 
+        Subject:"Feedback",
+        Body:y,
+     }).then(
+        function(message){
+            alert("Feedbck sent succesfully")
+        }
+     )
+  }
+</script>
+</body> 

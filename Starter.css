@@ -1,0 +1,214 @@
+ 
+.BodyWala{
+    background-color: red;
+}
+.Poems1{
+    background-color: black;
+    box-sizing:inherit ;
+}
+.Position1{
+    background-color:yellow;
+    box-sizing:inherit;
+    font-size:20px; 
+    max-width: 500px;
+    height: 100px;
+    width: 300px; 
+    display:flex; 
+    flex-direction: column;
+    justify-content: space-content;
+    background-color:rgba(0, 255, 255, 0.76);
+    border-radius: 20px;
+    border: 1px solid rgba(0, 255, 255, 0.76);
+    box-shadow: 0 0 10px 1px rgba(0, 255, 255, 0.76);
+
+}
+.Moment{
+    background-color:yellow;
+    box-sizing:inherit;
+    font-size:20px; 
+    max-width: 500px;
+    height: 100px;
+    width: 300px; 
+    display:flex; 
+    flex-direction: column;
+    justify-content: space-content;
+    background-color:rgba(0, 255, 255, 0.76);
+    border-radius: 20px;
+    border: 1px solid rgba(0, 255, 255, 0.76);
+    box-shadow: 0 0 10px 1px rgba(0, 255, 255, 0.76);
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+.Sky{
+    background-color:grey;
+    box-sizing: inherit;
+    font-size:20px;
+    max-width: 500px; 
+    height:100px; 
+    width: 300px; 
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    background-color: grey;
+    border: radius 20px;
+    border: 1px solid grey;
+    box-shadow: 0 0 10px 1px grey;
+}
+.Dream{
+    background-color:orange;
+    box-sizing: inherit;
+    font-size:30px; 
+    max-width: 500px; 
+    height:150px; 
+    width:250px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    background-color:yellow;
+    border-radius:  13px; 
+    border: 2px solid yellow;
+    box-shadow: 0 0 10px 1px orange;
+}
+.Position1{
+    font-style:sans-sherrif; 
+    font-family:sans-sherrif;
+}
+body{
+    font:1em/1.6em,Inter,sans-sherrif; 
+    color:#224;
+    background:
+    url()
+    center/cover no-repeat fixed;
+}
+.Poems{
+    background-color:red; 
+    box-sizing:initial;
+    font-size:14px; 
+    max-width:134px; 
+    font-family:sans-sherrif;
+    box-shadow: 0 0 10px 1px blue;
+    justify-content:space-evenly;
+}
+.Poems1{
+    background-color:red; 
+    box-sizing:initial;
+    font-size:14px; 
+    max-width:134px; 
+    font-family:sans-sherrif;
+    box-shadow: 0 0 10px 1px blue;
+    justify-content:space-evenly;
+}
+.Hundred{
+    background-color: blueviolet;
+    box-sizing:initial;
+    max-width: 100px;
+    font-family:sans-serif;
+    box-shadow: 1 1 10px 13px red;
+    border-color:aqua;
+    border-radius: 15px;
+    flex-direction: column;
+}
+.Moment {
+    min-height: 100%;
+    background: url(https://picsum.photos/id/1043/800/600);
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(255, 0, 150, 0.3);
+    border-color:aqua;
+    border-radius: 15px;
+    flex-direction:column;
+    box-sizing: content-box;
+  }
+  .Dream{
+    min-height:100%; 
+    background:url(/public/Wallpaper.png);
+    flex-direction:columm;
+    box-sizing:content-box; 
+    border-color:red;
+    box-shadow:inset 0 0 0 2000px rgba(yellow, green, blue, alpha);
+    box-sizing:content-box; 
+    flex-wrap: wrap;
+    flex-flow: column;
+  }
+.Starter{
+    flex-flow:column;
+    border-color:blue;
+    box-shadow:inset 0 0 0 10000px rgba(green,blue,red,alpha)
+}
+.StoryBox{
+    max-height:70%;
+    border-color: blue;
+    box-shadow:inset 0 0 0 120000px rgba(green,blue,red,alpha);
+    flex-flow:column;
+    box-sizing:content-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+.FeedbackWala{
+     max-width:max-content;
+     background-color: aquamarine;
+     box-sizing:content-box; 
+     display:flex; 
+     flex-wrap:wrap;
+     flex-flow:column;
+     box-shadow:inset 0 0 0 1200000px rgba(255, 0, 150, 0.3);
+     flex-direction: row;
+     background:url('BackgereoundPictures/Starter.png')
+}
+.mail{
+    font-style:italic;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:100px; 
+    box-shadow:inset 0 0 0 2000px rgba(yellow, green, blue, alpha);
+    flex-direction: row; 
+    background:url('backgroundpictures/Finisher.png')
+}
+.body{
+    font-style:italic;
+    font-family:'Courier-New',Courier,monospice;
+    font-weight:100px; 
+background-image:url("public/Wallpaper.png");
+    background-image:"Starter.png";
+    font-style:italic; 
+}
+.submit{
+    font-style:italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:1000px; 
+    background-image:url("public/RabindranathTagore.png");
+    box-shadow:inherit;
+    border:0cap 1 1 1 1 inset Starter;
+    font-style:italic; 
+}
+.Mailer{
+    box-shadow:inset; 
+    border-radius:0 0 1 1; 
+    border-radius:0 0 13px; 
+    background-image:url("public/Static.png");
+    font-style:italic; 
+    font-family:Posilia; 
+}
+.Position{
+    box-shadow:inset;
+    border-radius:0 0 1 1 inset Finisher; 
+    font-style:Starterlia;
+    font-family:'Courier New', Courier, monospace;
+    border-radius:13rem;
+    font-variant-position: normal;
+    font-optical-sizing: 100%;
+}
+.OnOperation{
+    box-shadow:inset;
+    border-radius:0 0 1 1 inset Finisher;
+    background-color:beige;
+    background-position: 12%;
+    font-style:Itallic;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-optical-sizing:100%;
+    font-display:initial;
+    display: flex;
+    flex-wrap:nowrap; 
+    flex-direction: column;
+}
